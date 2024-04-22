@@ -3,7 +3,7 @@ const item = document.querySelector('ul');
 
 
 
-for (let z = 1; z <= 100; z++) {
+for (let z = 1; z <= 105; z++) {
     let valore = z;
     let colore = "style=background-color:#F2F2F7;";
     if (z % 3 == 0 && z % 5 == 0) {
@@ -20,4 +20,3 @@ for (let z = 1; z <= 100; z++) {
     }
     item.innerHTML = item.innerHTML + `<li ${colore}>${valore}</li>`;
 }
-
